@@ -1,0 +1,179 @@
+/* General Styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F7F7;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #009688;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    color: #009688;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Transaction Table Styling */
+  
+  #transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #transaction-table th {
+    background-color: #009688;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #transaction-table td {
+    padding: 10px;
+    border-bottom: 1px solid #CCCCCC;
+  }
+  
+  /* Balance Container Styling */
+  
+  #balance-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #current-balance {
+    font-weight: bold;
+    font-size: 20px;
+    color: #009688;
+  }
+  
+  /* Input Container Styling */
+  
+  #input-container {
+    margin-top: 20px;
+  }
+  
+  input[type="date"],
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23555555"><path d="M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 30px;
+  }
+  
+  #add-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #009688;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #add-button:hover {
+    background-color: #008577;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E91E63;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #D81B60;
+  }
+  
+  /* Custom Styling */
+  
+  #transaction-container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #transaction-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  #input-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  #transaction-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #transaction-container::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 5px;
+  }
+  
+  #transaction-container::-webkit-scrollbar-thumb {
+    background-color: #009688;
+    border-radius: 5px;
+  }
+  
+  #transaction-container::-webkit-scrollbar-thumb:hover {
+    background-color: #008577;
+  }
+  
+  /* Colors */
+  
+  #transaction-table th {
+    background-color: #009688;
+  }
+  
+  #add-button {
+    background-color: #009688;
+  }
+  
+  #add-button:hover {
+    background-color: #008577;
+  }
+  
+  .delete-button {
+    background-color: #E91E63;
+  }
+  
+  .delete-button:hover {
+    background-color: #D81B60;
+  }
+  
+  #current-balance {
+    color: #009688;
+  }
+  
